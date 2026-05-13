@@ -356,11 +356,11 @@ p { margin-bottom: 14px; }
 .flag-priority{ background: var(--terra); }
 .flag-caution { background: var(--sand); }
 
-.company-body { padding: 20px 24px; }
+.company-body { padding: 20px 24px; max-width: 100%; }
 
 .company-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 16px;
   margin-bottom: 16px;
 }
@@ -961,6 +961,11 @@ body {
       </div>
     </div>
     <div class="company-body">
+      <div class="company-grid">
+        <div>
+          <div class="company-field-label">The Technology</div>
+          <div class="company-field-value">[Placeholder: Technology details to be added.]</div>
+        </div>
         <div>
           <div class="company-field-label">Project Overview</div>
           <div class="company-field-value">Regional modular hydrogen producer based in Santa Fe, NM. Pitches distributed hydrogen production as a path to energy independence for rural and remote communities.</div>
@@ -987,13 +992,22 @@ body {
       </div>
     </div>
     <div class="company-body">
+      <div class="company-grid">
         <div>
-          <div class="company-field-label">The Pitch</div>
+          <div class="company-field-label">The Technology</div>
+          <div class="company-field-value">[Placeholder: Technology details to be added.]</div>
+        </div>
+        <div>
+          <div class="company-field-label">Project Overview</div>
           <div class="company-field-value">"Hydrogen-rich syngas" through waste gasification. Claims "non-combustion" and "zero-emission" technology. Frames process as a clean energy solution for communities with waste management needs.</div>
         </div>
         <div>
-          <div class="company-field-label">Tribal Connection</div>
-          <div class="company-field-value">[Placeholder: Tribal connection details to be added.]</div>
+          <div class="company-field-label">Community Engagement</div>
+          <div class="company-field-value">Actively targeting California Tribal nations, including communities in and around the Central Valley. Primary focus of GreenAction's current organizing work.</div>
+        </div>
+        <div>
+          <div class="company-field-label">Key Takeaways</div>
+          <div class="company-field-value">Leadership connections to failed plasma arc projects raise technical and financial viability concerns. Waste gasification technology targets communities with existing environmental justice burdens. Schematics and technical documentation under review by GreenAction and environmental justice advocates.</div>
         </div>
       </div>
     </div>
@@ -1008,6 +1022,11 @@ body {
       </div>
     </div>
     <div class="company-body">
+      <div class="company-grid">
+        <div>
+          <div class="company-field-label">The Technology</div>
+          <div class="company-field-value">[Placeholder: Technology details to be added.]</div>
+        </div>
         <div>
           <div class="company-field-label">Project Overview</div>
           <div class="company-field-value">[Placeholder: Company overview, mission statement, and marketing positioning to be added.]</div>
@@ -1034,6 +1053,11 @@ body {
       </div>
     </div>
     <div class="company-body">
+      <div class="company-grid">
+        <div>
+          <div class="company-field-label">The Technology</div>
+          <div class="company-field-value">[Placeholder: Technology details to be added.]</div>
+        </div>
         <div>
           <div class="company-field-label">Project Overview</div>
           <div class="company-field-value">"FastOx" blast furnace gasification that can process any waste type — medical, hazardous, or municipal — into energy "without burning." Pitches total energy independence and waste elimination for rural and islanded communities including Tribal nations.</div>
@@ -1047,6 +1071,7 @@ body {
           <div class="company-field-value">[Placeholder: Specific project proposals with Tribal communities, environmental review findings, and any community opposition or concerns to be added.]</div>
         </div>
       </div>
+    </div>
     </div>
   </div>
 
