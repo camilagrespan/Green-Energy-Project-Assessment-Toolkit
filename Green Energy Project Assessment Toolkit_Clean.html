@@ -717,76 +717,40 @@ body {
   <p>Hydrogen energy is not a single technology—rather, it can be produced using a spectrum of methods with very different environmental profiles. The color-coding system below (green, blue,  grey) is commonly used in the industry, but developers are not always clear about which type of hydrogen technology they are utilizing, and in some cases may employ one technology as a "bridge" to transition to another. Additionally, there are other production methods such as turquoise, pink, white, black, and brown, which while not as common today are still worth mentioning in the event a developer proposes one of these technologies. (Hydrogen | MIT Climate Portal) Below, we provide a brief overview of the production methods, environmental, and health risks associated with the most common types of hydrogen technologies (blue, green, and grey), as well as short summaries describing the other less common production methods (turquoise, pink, white, brown and black).</p>
   <p>In some cases, developers and regulatory agencies may consider one technology as 'clean' by means of other technologies, such as Carbon Capture &amp; Storage (CCS), that offset or repurpose carbon emissions. It is important to always ask informed guiding questions that help communities understand which technology is actually being developed, what infrastructure is being built, where energy and water resources are coming from, and what the environmental and health impacts and risks are.</p>
 
-  <div class="tech-grid three">
-    <div class="tech-card h-grey">
-      <div class="tech-card-header">GREY</div>
-      <div class="tech-card-body">
-        <div style="min-height: 110px;">
-          <div class="tech-label">Production Method</div>
-          <p style="margin-bottom: 0;">Uses high-heat steam to split natural gas (methane) into hydrogen and carbon dioxide, also known as Steam Methane Reforming (SMR), releasing greenhouse gas pollution into the atmosphere in the process.</p>
-        </div>
-        <div class="tech-label">Environmental Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>High carbon dioxide emissions.</li>
-          <li>Natural gas extraction releases methane, a greenhouse gas far more powerful than CO<sub>2</sub>.</li>
-          <li>Uses significant water resources.</li>
-        </ul>
-        <div class="tech-label">Health Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>Air pollution released during production can worsen air quality and contribute to respiratory issues.</li>
-          <li>Communities near natural gas wells face high potential for contaminated groundwater and air from fracking.</li>
-        </ul>
-        <div class="tech-label">Important Notes</div>
-        <p>Currently the most common form of hydrogen production globally.</p>
-      </div>
-      <div class="verdict-bar">Not clean - rarely disclosed upfront</div>
-    </div>
-    <div class="tech-card h-blue">
-      <div class="tech-card-header">BLUE</div>
-      <div class="tech-card-body">
-        <div style="min-height: 110px;">
-          <div class="tech-label">Production Method</div>
-          <p style="margin-bottom: 0;">Also uses SMR, but adds a step to "capture" the emissions by combining carbon capture and storage (CCS) technology to pump carbon dioxide underground for storage, and in some cases distribution for secondary use.</p>
-        </div>
-        <div class="tech-label">Environmental Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>Relies on natural gas, which maintains extractive patterns like drilling and fracking.</li>
-          <li>Carbon capture technology today is inefficient and unproven at scale, and can fail to capture other forms of pollution.</li>
-          <li>Capturing carbons requires extra cooling, which uses even more water than grey hydrogen.</li>
-        </ul>
-        <div class="tech-label">Health Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>Air quality impacts from uncaptured pollution such as nitrous oxide and particulate matter can contribute to respiratory issues.</li>
-          <li>Repurposing gas pipelines for hydrogen transport carries significant safety risks including potential leakage and explosions.</li>
-        </ul>
-        <div class="tech-label">Important Notes</div>
-        <p>While marketed as a "clean" alternative, it still requires fossil fuel extraction for production.</p>
-      </div>
-      <div class="verdict-bar">Fossil fuel dependent - greenwashing risk</div>
-    </div>
-    <div class="tech-card h-green">
-      <div class="tech-card-header">GREEN</div>
-      <div class="tech-card-body">
-        <div style="min-height: 110px;">
-          <div class="tech-label">Production Method</div>
-          <p style="margin-bottom: 0;">Electrolysis of water (splitting water molecules into hydrogen and oxygen) using renewable electricity (solar or wind) that is additive (not by using existing renewable energy sources). No fossil fuels involved in production.</p>
-        </div>
-        <div class="tech-label">Environmental Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>Requires high energy and water consumption.</li>
-          <li>Large land footprint for associated renewable infrastructure.</li>
-          <li>Risks from hydrogen leakage can contribute to global warming.</li>
-        </ul>
-        <div class="tech-label">Health Risks</div>
-        <ul style="margin-left: 20px;">
-          <li>Minimal direct health risks if produced cleanly, however safety risks from explosion and leakage in pipelines, storage, and transport facilities still exist if not planned for and managed properly.</li>
-        </ul>
-        <div class="tech-label">Important Notes</div>
-        <p>In order to be considered truly green, production must meet the three pillars of clean hydrogen production: it must use clean energy sources which are new (incrementality), now (temporality), and near (deliverability).</p>
-      </div>
-      <div class="verdict-bar">Most promising - but context matters</div>
-    </div>
-  </div>
+  <table style="width: 100%; border-collapse: collapse; margin: 20px 0 24px 0;">
+    <tr>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: center; min-width: 80px; border: 1px solid #ddd; font-size: 13.5px;">TECHNOLOGY</th>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: left; border: 1px solid #ddd; font-size: 13.5px;">PRODUCTION METHOD</th>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: left; border: 1px solid #ddd; font-size: 13.5px;">ENVIRONMENTAL RISKS</th>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: left; border: 1px solid #ddd; font-size: 13.5px;">HEALTH RISKS</th>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: left; border: 1px solid #ddd; font-size: 13.5px;">IMPORTANT NOTES</th>
+      <th style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: center; min-width: 100px; border: 1px solid #ddd; font-size: 13.5px;">VERDICT</th>
+    </tr>
+    <tr>
+      <td style="background-color: #5a6070; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 13.5px;">GREY</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">Uses high-heat steam to split natural gas (methane) into hydrogen and carbon dioxide, also known as Steam Methane Reforming (SMR), releasing greenhouse gas pollution into the atmosphere in the process.</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>High carbon dioxide emissions.</li><li>Natural gas extraction releases methane, a greenhouse gas far more powerful than CO<sub>2</sub>.</li><li>Uses significant water resources.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>Air pollution released during production can worsen air quality and contribute to respiratory issues.</li><li>Communities near natural gas wells face high potential for contaminated groundwater and air from fracking.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">Currently the most common form of hydrogen production globally.</td>
+      <td style="background-color: #d9534f; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 11px;">Not clean - rarely disclosed upfront</td>
+    </tr>
+    <tr>
+      <td style="background-color: #1a5fa8; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 13.5px;">BLUE</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">Also uses SMR, but adds a step to "capture" the emissions by combining carbon capture and storage (CCS) technology to pump carbon dioxide underground for storage, and in some cases distribution for secondary use.</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>Relies on natural gas, which maintains extractive patterns like drilling and fracking.</li><li>Carbon capture technology today is inefficient and unproven at scale, and can fail to capture other forms of pollution.</li><li>Capturing carbons requires extra cooling, which uses even more water than grey hydrogen.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>Air quality impacts from uncaptured pollution such as nitrous oxide and particulate matter can contribute to respiratory issues.</li><li>Repurposing gas pipelines for hydrogen transport carries significant safety risks including potential leakage and explosions.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">While marketed as a "clean" alternative, it still requires fossil fuel extraction for production.</td>
+      <td style="background-color: #f0ad4e; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 11px;">Fossil fuel dependent - greenwashing risk</td>
+    </tr>
+    <tr>
+      <td style="background-color: #2d5a2a; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 13.5px;">GREEN</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">Electrolysis of water (splitting water molecules into hydrogen and oxygen) using renewable electricity (solar or wind) that is additive (not by using existing renewable energy sources). No fossil fuels involved in production.</td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>Requires high energy and water consumption.</li><li>Large land footprint for associated renewable infrastructure.</li><li>Risks from hydrogen leakage can contribute to global warming.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;"><ul style="margin: 0; padding-left: 20px;"><li>Minimal direct health risks if produced cleanly, however safety risks from explosion and leakage in pipelines, storage, and transport facilities still exist if not planned for and managed properly.</li></ul></td>
+      <td style="padding: 12px 16px; border: 1px solid #ddd; background-color: white; font-size: 13.5px;">In order to be considered truly green, production must meet the three pillars of clean hydrogen production: it must use clean energy sources which are new (incrementality), now (temporality), and near (deliverability).</td>
+      <td style="background-color: #5cb85c; color: white; padding: 12px 16px; font-weight: 700; text-align: center; border: 1px solid #ddd; font-size: 11px;">Most promising - but context matters</td>
+    </tr>
+  </table>
 
   <h3 style="margin-top: 32px; margin-bottom: 16px;">Other Hydrogen Production Technologies</h3>
   <table style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
