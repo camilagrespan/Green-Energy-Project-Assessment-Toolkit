@@ -231,6 +231,8 @@ p { margin-bottom: 14px; }
 .tech-grid.three { grid-template-columns: repeat(3, 1fr); }
 
 .tech-card {
+  display: flex;
+  flex-direction: column;
   border-radius: 4px;
   overflow: hidden;
   border: 1px solid var(--cardbd);
@@ -247,6 +249,7 @@ p { margin-bottom: 14px; }
 }
 
 .tech-card-body {
+  flex: 1;
   padding: 14px 16px;
   background: white;
   font-size: 12.5px;
