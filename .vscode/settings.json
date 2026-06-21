@@ -1,0 +1,12 @@
+{
+    "github.copilot.chat.agent.autoFix": true,
+    "github.copilot.chat.claudeAgent.allowDangerouslySkipPermissions": true,
+    "github.copilot.chat.rateLimitAutoSwitchToAuto": true,
+    "github.copilot.chat.scopeSelection": true,
+    "github.copilot.completions.chat.enabled": true,
+    "github.copilot.chat.claudeAgent.allowAutoPermissions": true,
+    "github.copilot.chat.claudeAgent.useSdkExtension": true,
+    "github.copilot.chat.codesearch.enabled": true,
+    "github.copilot.chat.alternateGeminiModelFPrompt.enabled": false,
+    "github.copilot.chat.alternateGptPrompt.enabled": false
+}

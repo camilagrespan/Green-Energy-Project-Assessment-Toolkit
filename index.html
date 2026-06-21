@@ -90,7 +90,7 @@ li {
 }
 
 .cover h1 {
-  --cover-h1-size: 52px;
+  --cover-h1-size: 57px;
   font-family: Georgia, serif;
   font-size: var(--cover-h1-size);
   line-height: 1.1;
@@ -100,7 +100,7 @@ li {
 }
 
 .cover-subtitle {
-  font-size: 31px;
+  font-size: 27px;
   color: var(--sandlt);
   line-height: 1.2;
   max-width: 1200px;
@@ -111,14 +111,15 @@ li {
 
 @media (max-width: 720px) {
   .cover h1 {
-    --cover-h1-size: 40px;
+    --cover-h1-size: 42px;
     font-size: var(--cover-h1-size);
   }
   .cover-subtitle {
     white-space: normal;
-    font-size: 20px;
+    font-size: 24px;
     max-width: 100%;
   }
+  .cover-meta { font-size: 21px; }
   .cover-content { padding: 40px 40px 60px 32px; }
 }
 
@@ -129,7 +130,8 @@ li {
 }
 
 .cover-meta { font-size: 24px; color: var(--mgray); line-height: 1.6; margin-top: 8px; }
-.cover-meta strong { color: white; }
+.cover-meta-label { color: white; font-weight: bold; }
+.cover-meta-content { color: var(--mgray); font-weight: normal; }
 
 .cover-bottom-geo {
   height: 10px;
@@ -664,9 +666,9 @@ body {
     <p class="cover-subtitle">A Guide for Asserting Indigenous Sovereignty in the Green Energy Transition.</p>
     <div class="cover-divider"></div>
     <div class="cover-meta">
-      <div>Authored by: Camila Grespan, Master of Climate Solutions, UC Berkeley Rausser College of Natural Resources</div>
-      <div>Sponsored by: Greenaction for Health &amp; Environmental Justice</div>
-      <div>First Published: April 2026</div>
+      <div><span class="cover-meta-label">Authored by:</span> <span class="cover-meta-content">Camila Grespan, Master of Climate Solutions, UC Berkeley Rausser College of Natural Resources</span></div>
+      <div><span class="cover-meta-label">Sponsored by:</span> <span class="cover-meta-content">Greenaction for Health &amp; Environmental Justice</span></div>
+      <div><span class="cover-meta-label">First Published on:</span> <span class="cover-meta-content">April 2026</span></div>
     </div>
   </div>
   <div class="cover-bottom-geo"></div>
