@@ -110,6 +110,9 @@ li {
 }
 
 @media (max-width: 720px) {
+  html, body {
+    overflow-x: hidden;
+  }
   .cover h1 {
     --cover-h1-size: 42px;
     font-size: var(--cover-h1-size);
@@ -121,16 +124,23 @@ li {
   }
   .cover-meta { font-size: 21px; }
   .cover-logos {
-    bottom: 18px;
-    gap: 18px;
+    left: 50%;
+    bottom: 14px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
   .cover-logos img {
-    height: 44px;
-    max-width: 170px;
+    height: 36px;
+    max-width: 150px;
   }
-  .cover-content { padding: 44px 152px 64px 34px; }
+  .cover-content { padding: 44px 92px 88px 34px; }
   .cover-strata {
-    width: 96px;
+    width: 56px;
+  }
+  .cover-divider {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 }
 
