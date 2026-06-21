@@ -127,12 +127,13 @@ li {
   }
   .cover-meta { font-size: 21px; }
   .cover-logos {
-    right: 18px;
-    left: auto;
+    left: 50%;
     bottom: 14px;
     flex-direction: row;
     align-items: flex-end;
+    justify-content: center;
     gap: 8px;
+    transform: translateX(-50%);
   }
   .cover-logos img {
     height: 24px;
@@ -162,17 +163,18 @@ li {
 
 .cover-logos {
   position: absolute;
-  right: 40px;
+  left: 50%;
   bottom: 22px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 16px;
+  transform: translateX(-50%);
   z-index: 2;
 }
 
 .cover-logos img {
-  height: 42px;
+  height: 51px;
   width: auto;
   max-width: 160px;
   object-fit: contain;
