@@ -121,20 +121,19 @@ li {
   }
   .cover-meta { font-size: 21px; }
   .cover-logos {
-    right: 24px;
     bottom: 18px;
-    gap: 8px;
+    gap: 10px;
   }
   .cover-logos img {
-    height: 26px;
-    max-width: 110px;
+    height: 32px;
+    max-width: 130px;
   }
   .cover-content { padding: 40px 40px 60px 32px; }
 }
 
 .cover-divider {
-  width: 100%;
-  max-width: 1200px;
+  width: calc(100% + 180px);
+  margin-left: -18px;
   height: 3px;
   background: var(--terra);
   margin-bottom: 32px;
@@ -146,19 +145,20 @@ li {
 
 .cover-logos {
   position: absolute;
-  right: 40px;
+  left: 50%;
   bottom: 22px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 16px;
+  transform: translateX(-50%);
   z-index: 2;
 }
 
 .cover-logos img {
-  height: 34px;
+  height: 44px;
   width: auto;
-  max-width: 150px;
+  max-width: 180px;
   object-fit: contain;
   opacity: 0.9;
 }
