@@ -120,11 +120,22 @@ li {
     max-width: 100%;
   }
   .cover-meta { font-size: 21px; }
+  .cover-logos {
+    right: 24px;
+    bottom: 18px;
+    gap: 8px;
+  }
+  .cover-logos img {
+    height: 26px;
+    max-width: 110px;
+  }
   .cover-content { padding: 40px 40px 60px 32px; }
 }
 
 .cover-divider {
-  width: 80px; height: 3px;
+  width: 100%;
+  max-width: 1200px;
+  height: 3px;
   background: var(--terra);
   margin-bottom: 32px;
 }
@@ -132,6 +143,25 @@ li {
 .cover-meta { font-size: 24px; color: var(--mgray); line-height: 1.6; margin-top: 8px; }
 .cover-meta-label { color: white; font-weight: bold; }
 .cover-meta-content { color: var(--mgray); font-weight: normal; }
+
+.cover-logos {
+  position: absolute;
+  right: 40px;
+  bottom: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 12px;
+  z-index: 2;
+}
+
+.cover-logos img {
+  height: 34px;
+  width: auto;
+  max-width: 150px;
+  object-fit: contain;
+  opacity: 0.9;
+}
 
 .cover-bottom-geo {
   height: 10px;
@@ -670,6 +700,10 @@ body {
       <div><span class="cover-meta-label">Sponsored by:</span> <span class="cover-meta-content">Greenaction for Health &amp; Environmental Justice</span></div>
       <div><span class="cover-meta-label">First Published on:</span> <span class="cover-meta-content">April 2026</span></div>
     </div>
+  </div>
+  <div class="cover-logos" aria-label="Project and sponsor logos">
+    <img src="gaction.png" alt="Greenaction for Health and Environmental Justice logo">
+    <img src="Rausser_College_Logo.png" alt="UC Berkeley Rausser College logo">
   </div>
   <div class="cover-bottom-geo"></div>
 </div>
