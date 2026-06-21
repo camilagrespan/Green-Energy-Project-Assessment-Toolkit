@@ -90,8 +90,9 @@ li {
 }
 
 .cover h1 {
+  --cover-h1-size: 52px;
   font-family: Georgia, serif;
-  font-size: 52px;
+  font-size: var(--cover-h1-size);
   line-height: 1.1;
   color: white;
   margin-bottom: 24px;
@@ -99,11 +100,26 @@ li {
 }
 
 .cover-subtitle {
-  font-size: 18px;
+  font-size: 31px;
   color: var(--sandlt);
-  line-height: 1.6;
-  max-width: 540px;
-  margin-bottom: 40px;
+  line-height: 1.2;
+  max-width: 1200px;
+  margin-bottom: 24px;
+  white-space: nowrap;
+  overflow-wrap: normal;
+}
+
+@media (max-width: 720px) {
+  .cover h1 {
+    --cover-h1-size: 40px;
+    font-size: var(--cover-h1-size);
+  }
+  .cover-subtitle {
+    white-space: normal;
+    font-size: 20px;
+    max-width: 100%;
+  }
+  .cover-content { padding: 40px 40px 60px 32px; }
 }
 
 .cover-divider {
@@ -112,7 +128,7 @@ li {
   margin-bottom: 32px;
 }
 
-.cover-meta { font-size: 13px; color: var(--mgray); line-height: 2; }
+.cover-meta { font-size: 24px; color: var(--mgray); line-height: 1.6; margin-top: 8px; }
 .cover-meta strong { color: white; }
 
 .cover-bottom-geo {
@@ -644,15 +660,13 @@ body {
     <div style="background:#c49a4a"></div>
   </div>
   <div class="cover-content">
-    <div class="cover-eyebrow">GreenAction for Health &amp; Environmental Justice &nbsp;·&nbsp; UC Berkeley MCS Capstone &nbsp;·&nbsp; 2026</div>
     <h1>"Green" Energy Project Assessment Toolkit</h1>
-    <p class="cover-subtitle">A Guide for Indigenous Sovereignty in the Green Energy Transition.</p>
+    <p class="cover-subtitle">A Guide for Asserting Indigenous Sovereignty in the Green Energy Transition.</p>
     <div class="cover-divider"></div>
     <div class="cover-meta">
-      <div><strong>Author</strong> &nbsp; Camila Grespan, Master of Climate Solutions, UC Berkeley</div>
-      <div><strong>Sponsor</strong> &nbsp; GreenAction for Health &amp; Environmental Justice</div>
-      <div><strong>Status</strong> &nbsp; Draft — April 2026</div>
-      <div><strong>Audience</strong> &nbsp; Tribal Councils, Community Leaders, Environmental Justice Organizations</div>
+      <div>Authored by: Camila Grespan, Master of Climate Solutions, UC Berkeley Rausser College of Natural Resources</div>
+      <div>Sponsored by: Greenaction for Health &amp; Environmental Justice</div>
+      <div>First Published: April 2026</div>
     </div>
   </div>
   <div class="cover-bottom-geo"></div>
